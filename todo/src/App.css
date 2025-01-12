@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: lightgray;
+}
+
+.Parent{
+  width: 50vw;
+  margin: 5em auto;
+  height: 50vh;
+}
+
+.List_container{
+  background-color: white;
+  border-radius: 1em;
+  width: 300px;
+  padding: 10px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header{
+  text-align: center;
+  color: rgb(178, 94, 122);
+}
+
+.Item{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin: 10px;
+  color: rgb(83, 215, 83);
+}
+
+.Button{
+  width: 100%;
+  padding: 10px;
+  border-radius: 3em;
+  border:none;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: rgba(178, 94, 122, 0.538);
+}
+
+.check{
+  cursor: pointer;
+}
+input{
+  width:12px;
+  height:10px;
+  margin:2px;
+}

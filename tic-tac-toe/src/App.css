@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+
+.Board-row{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.square{
+border-radius: 500px;
+margin: 10px;
+}
+.square:hover {
+  cursor: pointer;
+}
+
+.Board-Container{
+  margin: 2em;
+}
+
